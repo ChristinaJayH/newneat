@@ -1,0 +1,225 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;1,500&display=swap');
+
+* {
+    box-sizing: content-box;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+
+    background-color: navy;
+}
+
+li, a{
+
+    font-weight: 500;
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+
+}
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 10px 10%;
+
+
+}
+.logo{
+    cursor: pointer;
+    width: 200px;
+    height: 200px;
+    order: 1; /*positions the logo on the right side*/
+    margin-right: auto;
+    margin-top: -5%;
+
+}
+
+nav{
+    order:1;
+    margin-top: -5%;
+
+}
+.btn {
+    order: 2;
+    background-color: white;
+    margin-top: -5%;
+}
+.nav__links li {
+    display: inline-block;
+    padding: 0px 20px;
+    background-color: white;
+}
+
+.nav__links li:nth-child(1) {
+
+    padding: 0px 20px 0 0;
+
+}
+
+.nav__links li a{
+    transition: all 0.3s ease 0s;
+    background-color: white;
+}
+.nav__links li a:hover {
+    transition: all 0.3s ease 0s;
+}
+.nav__links li a hover {
+    color: black;
+}
+
+button {
+
+    border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1rem;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 1px whitesmoke;
+    border-radius: 10px;
+    background-color: rgb(108, 6, 111);
+    margin-left: 20px;
+}
+
+button:hover {
+
+    background-color: black;
+}
+.box {
+
+    display:flex;
+    margin-top: -5%;
+    margin-left: 0%;
+    background-color: navy;
+}
+
+form {
+    border-style: solid;
+    text-align: center;
+    border-width: 5px;
+}
+form button {
+
+    padding: 14px 40px;
+}
+
+
+.box  img {
+    opacity: 1;
+    width: 100px;
+    margin-top: -5%;
+}
+.footer {
+    text-align: center;
+
+}
+.flex-container {
+    display: flex;
+
+}
+
+.flex-container,  div {
+    margin: 50px;
+    justify-content: center;
+    font-family:'Times New Roman', Times, serif !important;
+}
+ul {
+    list-style-type: none;
+    background-color: white;
+    font-family: 'Merriweather', serif !important;
+
+}
+
+.login-page {
+    width: 360px;
+    padding: 0% 0 0;
+    margin: auto;
+}
+.form {
+    position: relative;
+    max-width: 360px;
+    margin: 0 auto 50px;
+    padding: 45px;
+    text-align: center;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+.form input {
+    font-family: "Roboto", sans-serif;
+    outline: 0;
+    background: #f2f2f2;
+    width: 100%;
+    border: 0;
+    margin: 0 0 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+.form button {
+    text-transform: uppercase;
+    outline: 0;
+    background: purple;
+    width: 50%;
+    border: 0;
+    padding: 15px;
+    color: #FFFFFF;
+    font-size: 14px;
+    -webkit-transition: all 0.3 ease;
+    transition: all 0.3 ease;
+    cursor: pointer;
+}
+.form button:hover,.form button:active,.form button:focus {
+    background: purple;
+}
+.form .message {
+    margin: 15px 0 0;
+    color: #b3b3b3;
+    font-size: 12px;
+}
+.form .message a {
+    color: black;
+    text-decoration: none;
+}
+.form .register-form {
+    display: none;
+}
+.container {
+    position: relative;
+    z-index: 1;
+    max-width: 0px;
+    margin: 0 0;
+}
+.container:before, .container:after {
+    content: "";
+    display: block;
+    /* clear: both; */
+}
+.container .info {
+    margin: 0px auto;
+    text-align: center;
+}
+.container .info h1 {
+    margin: 0 0 0px;
+    padding: 0;
+    font-size: 36px;
+    font-weight: 300;
+    color: #1a1a1a;
+}
+.container .info span {
+    color: #4d4d4d;
+    font-size: 12px;
+}
+.container .info span a {
+    color: #000000;
+    text-decoration: none;
+}
+.container .info span .fa {
+    color: #EF3B3A;
+}
